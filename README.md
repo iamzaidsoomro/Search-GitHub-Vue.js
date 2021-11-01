@@ -1,4 +1,4 @@
-# Search-GItHub-Vue.js
+# Search-GitHub-Vue.js
 
 ## Description
 Web-App made using Vue.js CDN package and GitHub REST API for fetching the users data. This app provides a search bar for searching the specific GitHub user by typing the username. This is a very simple app that I made for practicing vue.js. 
