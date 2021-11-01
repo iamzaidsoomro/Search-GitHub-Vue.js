@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0.5em;
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    cursor: pointer;
+    font-size:18px;
+    border: 0;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
+.search-bar{
+    display: inline-flex;
+}
+.card-item{
+    width: 400px;
+    margin-top: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.intro-section a{
+    text-decoration: none;
+    color: currentColor;
+    transition:0.5s;
+}
+.card-dp img{
+    border: rgb(0, 140, 255) solid 3px;
+    border-radius: 500px;
+    height:180px;
+    width: 180px;
+    position: relative;
+    top: -100px;
+    padding: 0px;
+    background-color:white;
+}
+.card-body{
+    margin: auto;
+    margin-top:-100px;
+}
+.connect{
+    background-color: rgba(219, 219, 219, 0.575);
+    border-radius: 500px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.connect:hover{
+    background-color: rgba(20, 20, 20, 0.781);
+}
+button a{
+    text-decoration:none;
+    color: #fff;
+}
+button a:hover{
+    color: #f3f3f3;
+}
+@media screen and (max-width: 768px) {
+    #app{
+        height:100vh;
+    }
+    .card-item{
+        width: 220px;
+        margin: auto;
+        margin-top: 150px;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    .card-dp img{
+        border: rgb(0, 140, 255) solid 3px;
+        border-radius: 500px;
+        height:120px;
+        width: 120px;
+        position: relative;
+        top: -80px;
+        padding: 0px;
+        background-color:white;
+    }
+    .card-body{
+        margin: auto;
+        margin-top:-100px;
+    }
+    .connect{
+        background-color: rgba(219, 219, 219, 0.575);
+        border-radius: 500px;
+        margin: 8px;
+        transition: 0.5s;
+    }
+    .connect:hover{
+        background-color: rgba(20, 20, 20, 0.781);
+    }
+    button{
+        font-size:18px;
+        padding: 8px 8px;
+        transition: 0.5s;
+    }
+    button a{
+        font-size:10px;
+    }
+}
